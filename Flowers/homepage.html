@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Flowers by Mariya Makaeva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7f7;
+            color: #333;
+        }
+        header {
+            background-color: #a0dedc;
+            padding: 20px 0;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo span {
+            color: #007f7f;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: #004c4c;
+            font-weight: bold;
+        }
+        .page-header {
+            background-color: #b9efef;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .catalog {
+            padding: 40px 0;
+        }
+        .product-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .cart-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #009999;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #a0dedc;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-links a {
+            margin: 0 10px;
+            color: #004c4c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Flowers by <span>Mariya Makaeva</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="custom-bouquet.html">Составить букет</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Каталог цветов</h1>
+            <p>Выберите из нашей коллекции готовых букетов или создайте свой собственный</p>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <!-- Пример карточки товара -->
+            <div class="product-card">
+                <h3>Розы</h3>
+                <p>Красные розы 7 штук</p>
+                <p><strong>Цена: 7000 тг</strong></p>
+                <a href="#" class="cart-button">Добавить в корзину</a>
+            </div>
+            <!-- Дополнительные карточки товаров можно добавить ниже -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo">Flowers by <span>Mariya Makaeva</span></div>
+            <p>Эксклюзивные букеты и цветочные композиции с 2023 года</p>
+            <div class="footer-links">
+                <a href="about.html">О нас</a>
+                <a href="#">Доставка</a>
+                <a href="#">Оплата</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <p>&copy; 2025 Flowers by Mariya Makaeva. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
